@@ -1,4 +1,5 @@
-# Say in chan at what you're working for on Sublime Text
+# Sublime Text - Working at
+Say in chan at what you're working for on Sublime Text
 
 
 - Install HexChat with PythonPlugin checkbox checked
