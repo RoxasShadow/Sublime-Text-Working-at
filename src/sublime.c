@@ -1,11 +1,14 @@
+#define _WIN32_WINNT 0x0500
 #include <windows.h>
-#include <stdlib.h>
-#include <string.h>
 #include <stdio.h>
 
 int main() {
   HWND hwnd;
   char *title;
+  
+  HWND dat = GetConsoleWindow();
+  ShowWindow(dat, SW_MINIMIZE);
+  ShowWindow(dat, SW_HIDE);
   
   if((hwnd = FindWindow("PX_WINDOW_CLASS", NULL)) == NULL) {
     printf("Error");
