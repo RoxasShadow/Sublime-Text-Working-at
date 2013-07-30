@@ -11,7 +11,7 @@ def sublime(word, word_eol, userdata):
   p = sub.Popen(os.getenv('APPDATA') + "\\HexChat\\addons\\sublime.exe", stdout=sub.PIPE, stderr=sub.PIPE)
   output, errors = p.communicate()
   if output == "Error":
-    XC.command("me " + "is working at nothing.")
+    XC.command("me " + "isn't working.")
   else:
    XC.command("me " + "is working at " + output.split("- Sublime Text")[0].split("\\")[-1].strip() + ".")
 
