@@ -2,7 +2,7 @@ import subprocess as sub
 import os
 
 __module_name__ = "Sublime Text - Working at" 
-__module_version__ = "0.1"
+__module_version__ = "0.2"
 __module_description__ = "Say in chan at what you're working for"
 
 import xchat as XC
